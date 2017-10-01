@@ -1,0 +1,13 @@
+@mixin tt-level-1-heading {
+  font-family: $tt-font-family-headers;
+  font-size: $tt-font-size-h1;
+  letter-spacing: -0.02em;
+  margin: $tt-space-stack-m;
+}
+
+@mixin tt-level-2-heading {
+  font-family: $tt-font-family-headers;
+  font-size: $tt-font-size-h2;
+  letter-spacing: -0.02em;
+  margin: $tt-space-stack-m;
+}

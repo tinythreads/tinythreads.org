@@ -1,0 +1,9 @@
+{% macro footer(class=false) %}
+  <div class="tt-footer">
+    <div class="tt-footer__inner">
+      <p class="tt-footer__legal">
+          {{ content.legal_footer | safe }}
+      </p>
+    </div>
+  </div>
+{% endmacro %}

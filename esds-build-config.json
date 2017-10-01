@@ -1,4 +1,5 @@
 {
+    "codeNamespace": "tt",
     "docsPath": "pages",
     "webroot": "docs",
     "latestVersionPath": ""

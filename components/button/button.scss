@@ -1,0 +1,12 @@
+.tt-button {
+  background: darken($tt-color-purple, 10%);
+  border-radius: $tt-border-radius-default;
+  color: $tt-color-white;
+  padding: $tt-space-inset-stretch-s;
+  text-decoration: none;
+
+  &:hover {
+    background: darken($tt-color-purple, 20%);
+    text-decoration: none;
+  }
+}

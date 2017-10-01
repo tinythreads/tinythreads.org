@@ -1,0 +1,54 @@
+color:
+  green: &color-green "#C4DFD0"
+  blue: &color-blue "#A1C9EB"
+  purple: "#DFC9EA"
+  yellow: "#E5E995"
+  pink: "#DBA8B0"
+  white: &color-white "#FFFFFF"
+  neutral-light: &color-neutral-light "#EFEDEB"
+  neutral-dark: &color-neutral-dark "#686868"
+brand-color: *color-green
+background-color:
+  default: *color-white
+border:
+  radius:
+    default: 4px
+  separator-light: "solid 1px #EFEDEB"
+  separator-dark: "solid 1px #CBCBCB"
+text-color:
+  primary: *color-neutral-dark
+  link: *color-blue
+font:
+  family:
+    headers: "'Bree Serif', serif"
+    body: "'Open Sans', sans-serif"
+  size:
+    s: 12px
+    m: 16px
+    l: 24px
+    xl: 36px
+    h1: 48px
+    h2: 36px
+    h3: 24px
+space:
+  xs: 4px
+  s: 8px
+  m: 16px
+  l: 32px
+  xl: 64px
+  inset:
+    xs: 4px
+    s: 8px
+    m: 16px
+    l: 32px
+    xl: 64px
+  inset-stretch:
+    s: 8px 16px
+    m: 16px 32px
+  stack:
+    xs: 0 0 4px
+    s: 0 0 8px
+    m: 0 0 16px
+    l: 0 0 32px
+    xl: 0 0 64px
+content-max-width: 900px

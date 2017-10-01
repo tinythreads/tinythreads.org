@@ -1,15 +1,35 @@
 {% extends "templates/base.njk" %}
 {% block body %}
   {% filter markdown %}
-    # Tiny Threads
+    ## Who We Are
+    Tiny Threads is a Franklin, TN organization that clothes babies for the first year of life by collecting gently used items from the comunity to be distributed to families in need. All items are washed, sorted and packed into boy and girl boxes, and delivered via Graceworks and other service organizations in our community.
 
-    [Contact Us](info@tinythreads.org)
+    ## Donate
+    Tiny Threads needs:
+    * Gently used baby clothing of all sorts, size newborn to 12 months
+    * Blankets
+    * Bibs
+    * Board books
+  {% endfilter %}
+    <div class="tt-image-strip">
+      <img src="/images/baby_clothes.jpg"/>
+    </div>
+  {% filter markdown %}
+    ## Volunteer
+    Interested in packing boxes, sorting or washing clothes?
+
+    {{ library.button(href="mailto:info@tinythreads.org?subject=Volunteer With Tiny Threads&body=Please send me more information about how I can serve with Tiny Threads.", text="Join our Volunteers") }}
+
+    ## Contact Us
+    Need more information about our organization?
+    [Email Us](mailto:info@tinythreads.org)
+    {# [Phone](tel:6159777049) #}
     {# ## Mission Statement #}
     {# ## Primary Audience #}
     {# People who want to give or volunteer #}
     {# ## Secondary Audience #}
     {# People who want to receive - routing to graceworks #}
-
-
   {% endfilter %}
+
+
 {% endblock %}

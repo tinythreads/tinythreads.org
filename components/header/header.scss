@@ -1,0 +1,10 @@
+.tt-header {
+  background: $tt-background-color-default;
+  border-bottom: $tt-border-separator-light;
+  color: $tt-brand-color;
+  padding: $tt-space-inset-s;
+}
+
+.tt-header__title {
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+.tt-footer__legal {
+  font-size: $tt-font-size-s;
+}
+
+.tt-footer__inner {
+  margin: 0 auto;
+  max-width: $tt-content-max-width;
+  padding: $tt-space-inset-s;
+
+  @media screen and (min-width: 768px) {
+    padding: $tt-space-inset-m;
+  }
+
+  a {
+    color: $tt-color-white;
+  }
+}
