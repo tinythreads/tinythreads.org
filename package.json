@@ -1,0 +1,23 @@
+{
+  "name": "tinythreads.org",
+  "version": "1.0.0",
+  "description": "Website for tinythreads.org",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "gulp build:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinythreads/tinythreads.org.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tinythreads/tinythreads.org/issues"
+  },
+  "homepage": "https://github.com/tinythreads/tinythreads.org#readme",
+  "devDependencies": {
+    "esds-build": "^0.22.0"
+  }
+}
